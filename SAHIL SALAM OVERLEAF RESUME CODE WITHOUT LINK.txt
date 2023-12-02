@@ -1,0 +1,290 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape SAHIL SALAM} \\ \vspace{1pt}
+    HSR LAYOUT,BANGALORE-560068,KARNATAKA\\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91-8406808090 ~$|$ \href{mailto:x@gmail.com}{\raisebox{-0.2\height} \faEnvelope\  \underline{sahilsalam780@gmail.com}} ~ $|$
+    \href{https://www.linkedin.com/in/sahil-salam-1346ab228/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/sahil-salam}}  ~$|$
+    \href{https://github.com/sahilsalam25}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/sahilsalam25}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+   \resumeSubheading
+      {Visvesvaraya Technological University}{Sep. 2019 -- June 2023}
+      {B.E - Electronics and Communication}{CGPA : 7.8 }
+      
+      {K.L.S COLLEGE} \hspace{12.15cm} {June. 2016 -- April. 2018} \newline {PUC/INTERMEDIATE }\hspace{13.5cm}{68.4    \hspace{0.1cm}$\%$}
+    \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+\section{SKILLS}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{3}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item\small HTML5
+                \item React.js
+                \item C Programming
+                \item  CSS
+                \item Bootstrap
+                \item Git $\&$ GitHub
+                \item  JavaScript
+                \item  Python
+                \item VS Code
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{ React CALCULATOR APP} $|$ \emph{ React.js,  JavaScript,   CSS,  HTML5,  VS Code}}{ 2023}
+          \resumeItemListStart
+            \resumeItem{Designed and implemented an intuitive user interface for the calculator, ensuring a seamless and user-friendly experience.}\resumeItem{Implemented the core functionality for performing arithmetic operations, including addition, subtraction, multiplication, and division.}
+            % \resumeItem{Created a Linux virtual machine to run on Google Cloud so that the program is able to run everyday from the cloud.}
+            % \resumeItem{Used Cron to schedule the program to execute automatically at 11 AM every morning so a reservation is made for me.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{MYNTRA APP CLONE} $|$ \emph{ JavaScript, CSS, HTML5, VS Code}}{ 2023}
+          \resumeItemListStart
+            \resumeItem{Implemented a user-friendly and responsive design, closely mirroring the Myntra's Website layout and navigation.}\resumeItem{Implemented a shopping cart system with features such as adding/removing items, updating quantities, and calculating order totals.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{TO DO LIST APP} $|$ \emph{ JavaScript, CSS , HTML5, VS Code}}{2023}
+          \resumeItemListStart
+            \resumeItem{Designed a functionality for adding, updating, and removing tasks dynamically using JavaScript.}
+            \resumeItem{Integrated local storage to persist user tasks, allowing users to revisit and manage their to-do items even after refreshing the page.}
+            % \resumeItem{Implemented object-oriented programming practices such as inheritance to create different account types and databases.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+\resumeProjectHeading
+          {\textbf{REGISTRATION FORM} $|$ \emph{ FreeCodeCamp, CSS, HTML5, VS Code}}{ 2023}
+          \resumeItemListStart
+            \resumeItem{Implemented form validation to ensure accurate and complete user input, enhancing data quality ,to improve data accuracy and user interaction.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{CAFE MENU,CAT PHOTO APP,COLOR CODE} $|$ \emph{ FreeCodeCamp, CSS, HTML5, VS Code}}{2023}
+          \resumeItemListStart
+            \resumeItem{Demonstrated proficiency in front-end web development, showcasing attention to design and user experience.}
+            
+           
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+\resumeProjectHeading
+          {\textbf{Tic-Tac-Toe GAME} $|$ \emph{ C Programming, VS Code}}{ 2023}
+          \resumeItemListStart
+            \resumeItem{The game features an intuitive console interface that allows players to seamlessly interact with the game using simple commands.}\resumeItem{The game incorporates a robust winning logic to determine and display the winner at the end of each match, providing a satisfying conclusion to each game..}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          
+  
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+
+\section{COURSES / CERTIFICATIONS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Ultimate Front-End Bootcamp ---}\hspace{5.5cm}{ UDEMY}{: React.js, JavaScript, Bootstrap, CSS} \\
+     \textbf{React.js For Beginners ---}\hspace{7cm}{SIMPLI LEARN / SKILL UP}{: React.js}  \\
+     \textbf{Front End Developement ---}\hspace{7.1cm}{SIMPLI LEARN / SKILL UP}{:React.js,}
+     \hspace{5cm} { JavaScript, CSS, HTML5, Git and GitHub} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+% \section{Hobbies}
+%     \resumeSubHeadingListStart
+%         \resumeSubheading{Fraternity}{Spring 2020 -- Present}{President}{University Name}
+%             \resumeItemListStart
+%                 \resumeItem{Achieved a 4 star fraternity ranking by the Office of Fraternity and Sorority Affairs (highest possible ranking).}
+%                 \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
+%                 \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
+%             \resumeItemListEnd
+        
+%     \resumeSubHeadingListEnd
+% \section{Hobbies}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-7pt, parsep=4pt]
+%                 \item Website Design and Projects
+%                 \item CSS Art and Animations
+%                 \item Learning New Frameworks and Libraries
+%                 \item Responsive Design Exploration
+              
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+\section{HOBBIES}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{2}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item Website Design and Projects
+                \item Responsive Design Exploration
+                \item  CSS Art and Animations
+                \item  Learning New Frameworks and Libraries
+              
+             
+                
+               
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+        \section{LANGUAGES}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{3}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item ENGLISH
+                \item HINDI
+                \item URDU
+             
+              
+             
+                
+               
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+
+
+\end{document}
